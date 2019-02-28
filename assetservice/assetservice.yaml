@@ -13,5 +13,5 @@ spring:
     driver-class-name: "org.postgresql.Driver"
     url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
     username: "postgres"
-    password: "p0stgr@s"
+    password: "{cipher}6bdf048b64c2291d0540398f39cd27dc968de24bff1c5f2ea62b5353aef39251"
 
