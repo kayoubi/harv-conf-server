@@ -1,0 +1,5 @@
+zuul:
+#  ignoredServices: '*'
+  prefix: /api
+  routes:
+    organization: /org/**
