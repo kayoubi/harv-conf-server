@@ -7,3 +7,8 @@ eureka:
     serviceUrl:
       defaultZone: http://eurekaserver:8761/eureka/
       
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    edu.microservices: DEBUG      
