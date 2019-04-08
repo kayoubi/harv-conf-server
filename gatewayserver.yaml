@@ -1,5 +1,5 @@
 zuul:
-#  ignoredServices: '*'
+  ignoredServices: 'organization'
   prefix: /api
   routes:
     organization: /org/**
