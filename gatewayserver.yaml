@@ -3,3 +3,6 @@ zuul:
   prefix: /api
   routes:
     organization: /org/**
+    assetstatic:
+      path: /assetstatic/** 
+      url: http://assetservice-static:8081
