@@ -2,12 +2,12 @@ zuul:
   # ignoredServices: 'organization'
   prefix: /api
   routes:
-    # organization: /org/**
-    assetstatic:
-      path: /assetstatic/** 
-      serviceId: assetstatic  
-      ribbon: 
-        listOfServers:  http://assetservice-static1:8081, http://assetservice-static2
-ribbon:
-  eureka:
-    enabled: false        
+    organization: /org/**
+    # assetstatic:
+  #     path: /assetstatic/**
+  #     serviceId: assetstatic
+  #     ribbon:
+  #       listOfServers:  http://assetservice-static1:8081, http://assetservice-static2
+# ribbon:
+#   eureka:
+#     enabled: false
