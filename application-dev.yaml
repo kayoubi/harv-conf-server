@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaserver:8761/eureka/
+           
+# this is to point to the auth server
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://authserver:8901/user    
