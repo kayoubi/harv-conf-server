@@ -8,3 +8,11 @@ security:
   oauth2:
     resource:
       userInfoUri: http://authserver:8901/user    
+      
+
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: kafkaserver         

@@ -1,3 +1,6 @@
 spring:
   datasource:
     url: "jdbc:postgresql://database-dev:5432/eagle_eye_dev"
+
+redis:
+  server: "redis"
