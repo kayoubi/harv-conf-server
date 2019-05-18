@@ -15,4 +15,7 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: kafkaserver         
+          brokers: kafkaserver                   
+  zipkin:
+    baseUrl: http://zipkinserver:9411
+    base-url: http://zipkinserver:9411
